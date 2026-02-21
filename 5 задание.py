@@ -1,6 +1,6 @@
-str1 = input()
-str2 = input()
-str3 = input()
+str1 = input().lower()
+str2 = input().lower()
+str3 = input().lower()
 
 all_str = set(str1 + str2 + str3)
 
