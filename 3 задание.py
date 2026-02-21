@@ -1,5 +1,9 @@
 text = input()
 
-text = text.replace(' ','')
-unique_symb = set(text)
-print(len(unique_symb))
+text = text.lower()
+unique_symb = ''
+for ch in text: 
+  if ch.isalpha(): 
+    unique_symb += ch
+
+print(len(set(unique_symb)))
