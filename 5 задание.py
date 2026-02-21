@@ -2,7 +2,7 @@ str1 = input()
 str2 = input()
 str3 = input()
 
-all_str = str1 + str2 + str3
+all_str = set(str1 + str2 + str3)
 
 for ch in all_str:
     count = 0
